@@ -18,8 +18,10 @@
 #pragma once
 
 /* Handedness. */
-#define MASTER_RIGHT
+// #define MASTER_RIGHT
 
+#define USB_POLLING_INTERVAL_MS 1
+#define DEBOUNCE 5
 // To use the handedness pin, resistors need to be installed on the adapter PCB.
 // If so, uncomment the following code, and undefine MASTER_RIGHT above.
 // #define SPLIT_HAND_PIN GP15
